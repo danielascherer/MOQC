@@ -1,4 +1,31 @@
-%%graph Erdos02.mtx -made undirected and simple by ignoring the direction of the arcs and removing self-loops and multiple edges. Original graph downloaded from https://sparse.tamu.edu/
+%%MatrixMarket matrix coordinate pattern symmetric
+%-------------------------------------------------------------------------------
+% UF Sparse Matrix Collection, Tim Davis
+% http://www.cise.ufl.edu/research/sparse/matrices/Pajek/Erdos02
+% name: Pajek/Erdos02
+% [Pajek network: Erdos collaboration network]
+% id: 1464
+% date: 2006
+% author: J. Grossman, P. Iain, R. Castro
+% ed: V. Batagelj
+% fields: name title A id kind notes aux date author ed
+% aux: nodename
+% kind: undirected graph
+%-------------------------------------------------------------------------------
+% notes:
+% ------------------------------------------------------------------------------
+% Pajek network converted to sparse adjacency matrix for inclusion in UF sparse 
+% matrix collection, Tim Davis.  For Pajek datasets, See V. Batagelj & A. Mrvar,
+% http://vlado.fmf.uni-lj.si/pub/networks/data/.                                
+% ------------------------------------------------------------------------------
+%  Erdos collaboration network:                                                 
+%  Erdos included, version 2002                                                 
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+% Modifications (this version):
+% - Made undirected and simple by ignoring arc directions
+% - Removed self-loops and multiple edges
+%-------------------------------------------------------------------------------
 5534 5534 8472
 185 1
 185 397
