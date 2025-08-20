@@ -1,4 +1,16 @@
-%%graph homer.mtx -made undirected and simple by ignoring the direction of the arcs and removing self-loops and multiple edges. Original graphs downloaded from https://mat.tepper.cmu.edu/COLOR/instances.html
+%%MatrixMarket matrix coordinate pattern symmetric
+%-------------------------------------------------------------------------------
+% Graph: homer.mtx
+% Source: Stanford GraphBase File: homer.gb
+%         (https://mat.tepper.cmu.edu/COLOR/instances.html)
+% Original dataset: Stanford GraphBase ID: book(?homer?,561,0,1,24,0,0,0)
+% Translation: from Stanford GraphBase file (homer.gb → homer.col) to MatrixMarket
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+% Modifications (this version):
+% - Made undirected and simple by ignoring arc directions
+% - Removed self-loops and multiple edges
+%-------------------------------------------------------------------------------
 556 556 1629
 1 448
 1 443
