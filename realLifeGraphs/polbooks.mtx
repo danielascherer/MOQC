@@ -1,4 +1,11 @@
-%%graph polbooks.mtx -made undirected and simple by ignoring the direction of the arcs and removing self-loops and multiple edges. Original graph downloaded from https://sparse.tamu.edu/
+%%MatrixMarket matrix coordinate pattern symmetric
+%-------------------------------------------------------------------------------
+% Graph: polbooks.mtx
+% Source: SuiteSparse Matrix Collection (https://sparse.tamu.edu/)
+% Original dataset: Newman/polbooks (V. Krebs, M. Newman)
+% Modifications: made undirected and simple by ignoring arc directions,
+%                and removing self-loops and multiple edges
+%-------------------------------------------------------------------------------
 105 105 441
 2 1
 2 4
