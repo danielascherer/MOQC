@@ -1,4 +1,30 @@
-%%graph email.mtx -made undirected and simple by ignoring the direction of the arcs and removing self-loops and multiple edges. Original graph downloaded from https://sparse.tamu.edu/
+%%MatrixMarket matrix coordinate pattern symmetric
+%-------------------------------------------------------------------------------
+% UF Sparse Matrix Collection, Tim Davis
+% http://www.cise.ufl.edu/research/sparse/matrices/Arenas/email
+% name: Arenas/email
+% [email interchange network, Univ. of Rovira i Virgili, Tarragona]
+% id: 2408
+% date: 2003
+% author: R. Guimera, L. Danon, A. Diaz-Guilera, F. Giralt, A. Arenas
+% ed: A. Arenas
+% fields: name title A id date author ed kind notes
+% kind: undirected graph
+%-------------------------------------------------------------------------------
+% notes:
+% Arenas set: email network, Univ. of Rovira i Virgili, Tarragona           
+% http://deim.urv.cat/~aarenas/data/welcome.htm                             
+%                                                                           
+% Network of e-mail interchanges between members of the Univeristy Rovira   
+% i Virgili (Tarragona).  Data compiled by members of Alex Arenas' group.   
+% Reference: R. Guimera, L. Danon, A. Diaz-Guilera, F. Giralt and A. Arenas,
+% Physical Review E , vol. 68, 065103(R), (2003).                           
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+% Modifications (this version):
+% - Made undirected and simple by ignoring arc directions
+% - Removed self-loops and multiple edges
+%-------------------------------------------------------------------------------
 1133 1133 5451
 2 1
 2 3
