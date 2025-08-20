@@ -1,4 +1,31 @@
-%%graph USAir97.mtx -made undirected and simple by ignoring the direction of the arcs and removing self-loops and multiple edges. Original graph downloaded from https://sparse.tamu.edu/
+%%MatrixMarket matrix coordinate real symmetric
+%-------------------------------------------------------------------------------
+% UF Sparse Matrix Collection, Tim Davis
+% http://www.cise.ufl.edu/research/sparse/matrices/Pajek/USAir97
+% name: Pajek/USAir97
+% [Pajek network: US Air flights, 1997]
+% id: 1529
+% date: 1997
+% author: US Air
+% ed: V. Batagelj
+% fields: name title A id kind notes aux date author ed
+% aux: nodename coord
+% kind: undirected weighted graph
+%-------------------------------------------------------------------------------
+% notes:
+% ------------------------------------------------------------------------------
+% Pajek network converted to sparse adjacency matrix for inclusion in UF sparse 
+% matrix collection, Tim Davis.  For Pajek datasets, See V. Batagelj & A. Mrvar,
+% http://vlado.fmf.uni-lj.si/pub/networks/data/.                                
+% ------------------------------------------------------------------------------
+% The original problem had 3D xyz coordinates, but all values of z were equal   
+% to 0.5, and have been removed.  This graph has 2D coordinates.                
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+% Modifications (this version):
+% - Made undirected and simple by ignoring arc directions
+% - Removed self-loops, weights, and multiple edges
+%-------------------------------------------------------------------------------
 332 332 2126
 2 1
 2 4
