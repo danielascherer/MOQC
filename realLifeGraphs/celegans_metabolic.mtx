@@ -1,4 +1,31 @@
-%%graph celegans_metabolic.mtx -made undirected and simple by ignoring the direction of the arcs and removing self-loops and multiple edges. Original graph downloaded from https://sparse.tamu.edu/
+%%MatrixMarket matrix coordinate integer symmetric
+%-------------------------------------------------------------------------------
+% UF Sparse Matrix Collection, Tim Davis
+% http://www.cise.ufl.edu/research/sparse/matrices/Arenas/celegans_metabolic
+% name: Arenas/celegans_metabolic
+% [C. elegans metabolic network]
+% id: 2407
+% date: 2005
+% author: J. Duch, A. Arenas
+% ed: A. Arenas
+% fields: name title A id date author ed kind notes aux
+% aux: nodename
+% kind: undirected multigraph
+%-------------------------------------------------------------------------------
+% notes:
+% Arenas set: C. elegans metabolic network                              
+% http://deim.urv.cat/~aarenas/data/welcome.htm                         
+%                                                                       
+% Graph of the metabolic network of C.elegans. Data processed by members
+% of Alex Arenas' group.                                                
+% Reference: Community identification using Extremal Optimization,      
+%  J. Duch and A. Arenas, Physical Review E , vol. 72, 027104, (2005).  
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+% Modifications (this version):
+% - Made undirected and simple by ignoring arc directions
+% - Removed self-loops and multiple edges
+%-------------------------------------------------------------------------------
 453 453 2040
 186 1
 186 2
